@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/question_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/cool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/cool70"/>
+        <ImageView
+            android:id="@+id/bad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bad70"/>
+        <ImageView
+            android:id="@+id/awesome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/awesome70"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="8dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/henhead36"
+                android:layout_marginRight="4dp"/>
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Mike"
+                android:layout_gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/check_selector"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+            <ImageView
+                android:id="@+id/smart_hen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/smart_hen_image"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/hen50"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="bubble"
+            android:layout_above="@id/smart_hen"
+            android:layout_toLeftOf="@id/smart_hen"
+            android:src="@drawable/ic_bubble"/>
+
+            <Button
+                android:id="@+id/sub_button"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/buttun_states"
+                android:text="submit"/>
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/sub_button"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="#D55"
+            android:layout_marginBottom="15dp"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:id="@+id/question_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/textColor"
+            android:layout_margin="10dp"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+</LinearLayout>

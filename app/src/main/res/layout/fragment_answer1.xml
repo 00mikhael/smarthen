@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_next"
+            android:drawableEnd="@drawable/ic_next"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/buttun_states"
+            android:text="@string/next"/>
+        <FrameLayout
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/circle_drawable"
+            android:layout_centerInParent="true">
+            <TextView
+                android:id="@+id/question_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="30sp"/>
+        </FrameLayout>
+        <Button
+            android:id="@+id/prev_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/buttun_states"
+            android:drawableLeft="@drawable/ic_back"
+            android:drawableStart="@drawable/ic_back"
+            android:text="@string/back"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/ans_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/answer"
+                android:padding="10dp"
+                android:background="@drawable/edit_text_background"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/textColor"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/ans_sub_button"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:layout_below="@id/text_input_layout"
+            android:layout_marginTop="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/buttun_states"
+            android:text="@string/answer"/>
+    </RelativeLayout>
+</LinearLayout>
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/welcome_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/textColor"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/what_to_do"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/start_quiz"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/welcome_buttons"
+            android:drawableEnd="@drawable/start70"
+            android:drawableRight="@drawable/start70"
+            android:text="@string/start_quiz"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/stats"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/start_quiz"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/welcome_buttons"
+            android:drawableEnd="@drawable/stats70"
+            android:drawableRight="@drawable/stats70"
+            android:text="Scores"
+            android:textAlignment="textStart"/>
+
+        <Button
+            android:id="@+id/rules"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/stats"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/welcome_buttons"
+            android:drawableEnd="@drawable/settings70"
+            android:drawableRight="@drawable/settings70"
+            android:text="@string/settings"
+            android:textAlignment="textStart"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">SmartHen</string>
+    <string name="tech_que2_1">Finding and fixing problems\n
+        in your algorithm or program is\.\.\.</string>
+    <string name="tech_ans2_11">Insect Spray</string>
+    <string name="tech_ans2_21">Debugging</string>
+    <string name="tech_ans2_31">Looping</string>
+    <string name="tech_que2_2">When two parties exchange information
+        so that they trust that each other is who\n
+        they say they are
+    </string>
+    <string name="tech_ans2_12">Assigning</string>
+    <string name="tech_ans2_22">Evaluate</string>
+    <string name="tech_ans2_32">Authentication</string>
+    <string name="tech_que1_1">Who developed Facebook?</string>
+    <string name="tech_que1_2">Which term is used to describe\n
+        expressions hold the value of either\n true or false?
+    </string>
+    <string name="tech_que_1">_____ and _____ are NOT valid ways\n
+        to add 1 to a variable?
+    </string>
+    <string name="tech_ans_11">x+</string>
+    <string name="tech_ans_21">y++</string>
+    <string name="tech_ans_31">z+</string>
+    <string name="tech_que_2">_____ and _____ are examples of\n
+        java key words?
+    </string>
+    <string name="tech_ans_12">Continue</string>
+    <string name="tech_ans_22">new</string>
+    <string name="tech_ans_32">javaFX</string>
+
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="secure_score">Score Secure</string>
+    <string name="settings">settings</string>
+    <string name="answer">Answer</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="continue1">Continue</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="what_s_your_name">What\'s your name:</string>
+    <string name="i_m_smarthen">I\'m SmartHen!!</string>
+    <string name="hello">Hello,</string>
+    <string name="smart_hen_image">smart_hen image</string>
+    <string name="what_to_do">What to do:</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="quiz_stats">Quiz Stats</string>
+    <string name="quiz_rules">Quiz Rules</string>
+</resources>
